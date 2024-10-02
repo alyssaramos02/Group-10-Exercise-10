@@ -97,10 +97,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         header {
     display: flex;
-    justify-content: space-between; /* Space between logo and button */
-    align-items: center; /* Center vertically */
+    justify-content: space-between;
+    align-items: center;
     background-color: #000;
-    padding: 10px 20px; /* Add padding to the header */
+    padding: 10px 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
@@ -239,20 +239,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         .modal-content {
             background-color: #fefefe;
-            margin: auto; /* Center horizontally */
+            margin: auto;
             padding: 20px;
             border: 1px solid #888;
             width: 50%;
             max-width: 500px;
-            position: relative; /* For positioning close button */
+            position: relative; 
             top: 50%;
-            transform: translateY(-50%); /* Center vertically */
+            transform: translateY(-50%);
             color: black;
-            box-sizing: border-box; /* Ensure padding is included in width */
+            box-sizing: border-box; 
         }
 
         #modalName {
-            color: #ff7e5f; /* Change the color to orange */
+            color: #ff7e5f; 
         }
 
         .close {
@@ -288,45 +288,45 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             color: #fff; 
         }
         .nav-container {
-    display: flex; /* Use flexbox for the button container */
-    align-items: center; /* Center the button vertically */
-    margin-left: 0; /* No margin to push the button to the right */
-    padding-right: 20px; /* Add padding to the right side of the container */
+    display: flex; 
+    align-items: center; 
+    margin-left: 0; 
+    padding-right: 20px; 
 }
         .contact-button {
-        float: right; /* Align button to the left */
-        background-color: #ff5733; /* Aesthetic orange color */
+        float: right; 
+        background-color: #ff5733; 
         color: white;
         border: none;
         padding: 10px 40px;
         cursor: pointer;
         font-size: 16px;
-        margin-right: 20px; /* Add some space from the left */
-        border-radius: 10px; /* Rounded corners */
+        margin-right: 20px; 
+        border-radius: 10px; 
         transition: background-color 0.3s ease;
     }
 
     .contact-button:hover {
-        background-color: #e74c3c; /* Darker shade on hover */
+        background-color: #e74c3c; 
     }
 
     .send-button {
-    background-color: #4CAF50; /* Green background color */
-    color: white; /* White text color */
-    border: none; /* No border */
-    padding: 12px 20px; /* Top and bottom padding, left and right padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Allow padding and margin */
-    font-size: 16px; /* Font size */
-    margin: 10px 0; /* Margin around the button */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 0; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 
 .send-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
 }
 
 .search-container {
